@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Лаба 3\DeviceAssignment.hpp" />
+    <ClInclude Include="..\..\..\Лаба 3\Employee.hpp" />
+    <ClInclude Include="..\..\..\Лаба 3\MobileDevice.hpp" />
+    <ClInclude Include="..\..\..\Лаба 3\RepairInfo.hpp" />
+    <ClInclude Include="..\..\..\Лаба 3\RepairRequest.hpp" />
+    <ClInclude Include="..\..\..\Лаба 3\SimCard.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Лаба 3\DeviceAssignment.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\Employeecpp.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\Maincpp.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\MobileDevice.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\RepairInfo.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\RepairRequestcpp.cpp" />
+    <ClCompile Include="..\..\..\Лаба 3\SimCard.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,24 +139,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Лаба 3\DeviceAssignment.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\Employeecpp.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\Maincpp.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\MobileDevice.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\RepairInfo.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\RepairRequestcpp.cpp" />
-    <ClCompile Include="..\..\..\Лаба 3\SimCard.cpp" />
-    <ClCompile Include="Job3.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Лаба 3\DeviceAssignment.hpp" />
-    <ClInclude Include="..\..\..\Лаба 3\Employee.hpp" />
-    <ClInclude Include="..\..\..\Лаба 3\MobileDevice.hpp" />
-    <ClInclude Include="..\..\..\Лаба 3\RepairInfo.hpp" />
-    <ClInclude Include="..\..\..\Лаба 3\RepairRequest.hpp" />
-    <ClInclude Include="..\..\..\Лаба 3\SimCard.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
